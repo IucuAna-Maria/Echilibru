@@ -3955,6 +3955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1203515997}
   - component: {fileID: 1203515998}
+  - component: {fileID: 1203515999}
   m_Layer: 0
   m_Name: WeatherEffects
   m_TagString: Untagged
@@ -3989,6 +3990,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee6ba692ed419404390056e891728260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rainParticles: {fileID: 129880793}
+  snowParticles: {fileID: 586477173}
+--- !u!114 &1203515999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203515996}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f824df4f6af36004384d2e734da9d20e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rainParticles: {fileID: 129880793}
@@ -5787,7 +5802,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 4036499463709637903, guid: 2b3e0d9b613770e40b844c234c895c2f, type: 3}
   loudnessThreshold: 0.02
   cooldown: 2
-  spawnDistance: 20
+  spawnDistance: 10
 --- !u!4 &1918883280
 Transform:
   m_ObjectHideFlags: 0
